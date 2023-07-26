@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: scroll;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 5px solid #6f6f6f;
+    width: 100%;
+    height: 100%;
+
+}
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+header{
+   /* position: fixed;*/
+    width: 100%;
+    height: 8vh;
+    top: 0;
+    left: 0;
+    background: black;
+    color: aliceblue;
+    padding: 0 2 rem;
+
+}
+.ridoss{
+    height:  2rem;
+}
+.logo{
+    font-size: 2rem;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    width: 550px;
+    
+}
+.menu{
+    color: #fff;
+    text-decoration: none;
+} 
+.rido{
+    height: 400px;
+    width: 400px;
+    margin-top: 90px;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    background: bisque;
+    
+}
+.T{
+    font-size: 2.2rem;
+    margin-top: 90px;
+}
+.section i {
+    display: flex;
+   padding: 10px; 
+   margin-top: 70px;
+}
+.s 
+{
+    border-radius: 75%;
+    height: 45px;
+    width: 45px;
+}
+.kl{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    width: 50px;
+}
+ik{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.ni{
+   padding-left: 660px; 
+   font-style: italic;  
+}
+.a{
+    height: 400px;
+    width: 400px;
+    padding-top:50px;
+}
+.container-2
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+.si
+{
+
+    color: rgb(35, 63, 63);
+    width: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+}
+.container-3
+{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.container-4
+{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.wi
+{
+    padding-top: 40px;
+    color: darkorange;
+}
+.container-5
+{
+   display: flex; 
+   justify-content: space-between;
+   justify-content: space-around;
+
+}
+.mi
+{
+    padding-left: 100px;
+    background-color: rgb(246, 244, 240);
+    border-radius: 5%;
+}
+.li
+{
+ padding-left: 100px;
+ background-color: rgb(246, 244, 240) ;
+ border-radius: 5%;
+}
+.v
+{
+    width: 250px;
+    height: 200px;
+}
+.bi
+{
+    padding-right: 100px;
+}
+.w 
+{
+    color: darkorange;
+    padding-left: 600px;
+    padding-top: 20px;
+}
+.container-6
+{
+    background-color: bisque;
+    display: flex;
+    margin: 0px;
+
+}
+.container-6 .rightside
+{
+    display: flex;
+ justify-content: space-around;
+ padding-top: 245px;
+ padding-left: 150px;
+}
+.container-6 .leftside
+{   
+    justify-content: space-around;
+    padding-top: 45px;
+}
+.section-a
+{
+    display: flex;
+    padding-top: 95px;
+}
+.section-b
+{
+    display: flex;
+    padding-top: 95px;
+}
+.lime
+{
+ padding-right: 10px;
+    font-size: 20px;
+}
+.mile
+{
+    padding-left: 55px;
+    font-size: 20px;
+}
+.dime
+{
+   padding-right: 10px;
+    font-size: 20px;
+}
+.mide
+{
+    padding-left: 55px;
+    font-size: 20px;
+}
+.sa 
+{
+    border-radius: 76%;
+    height: 75px;
+    width: 75px;
+}
+.x
+{
+    height: 180px;
+    width: 180px;
+}
+.container-7
+{
+    display: flex;
+    justify-content: space-around;
+
+}
+.sept-i
+{
+    background-color: azure;
+    border-color: bisque;
+    font-size: 25px;
+    border-radius: 3%;
+    padding: 15px;
+}
+.sept-e
+{
+    background-color: bisque;
+    border-color: azure;
+    font-size: 25px;
+    border-radius: 3%;
+    padding: 15px;
+}
+.ai 
+{
+    background-color: yellow;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    text-overflow: clip;
+    text-align: center;
+}
+.ti 
+{
+    color: darkorange;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 35px;
+}
+.ei 
+{
+    font-weight: bolder;
+    color: black;
+    font-size: 100px;
+    padding: 35px;
+}
+.xi
+{
+    background-color: darkorange;
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: aliceblue;
+    border-radius: 15%;
+    font-weight: bold;
+    padding: 10px;text-decoration: none;
+}
+.container-8
+{
+    display: flex;
+    justify-content: space-around;
+
+}
+.ji
+{
+    background-color: darkolivegreen;
+    color: aliceblue;
+    border-radius: 25%;
+    font-size:  25px;
+    justify-content: flex-end;
+}
+.container-9
+{
+    background-color: bisque;
+    size-adjust: content;
+    display: flex;
+    border-radius: 1%;
+
+
+}
+.container-9 .six
+{
+    background-color: aliceblue;
+    color: darkslategray;
+    border-radius: 35%;
+}
+.container-9 .leftside
+{
+    padding: 30px;
+   
+}
+.min
+{
+    width: 300px;
+    height: 400px;
+    margin-left: 400px;
+    
+}
+.section-h
+{
+    justify-content: space-between;
+    
+}
+.section-p
+{
+    justify-content: space-around;
+    display: flex;
+    
+}
+.section-pi
+{
+    display: flex;
+    justify-content: space-around;
+}
+.lala
+{
+    display: flex;
+    height: 25px;
+    width: 20px;
+}
+.lila
+{
+    height: 35px;
+    width: 30px;
+}
+.container-10
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    
+}
+/*.ridoss{
+    /*width: 100px;
+    height: 100px;*/
+   /*height: 2.2rem;    
+
+/*.toggle{
+    display: none;
+}*/
+.ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+    
+}
+.sh{
+    display: flex;
+    height: 25px;
+    width: 25px;
+    padding-left: 30px;
+    justify-content: space-between;
+}
+ /* .section c{ 
+    display: flex;
+}
+.section d{
+    display: flex;
+}
+.section e{
+    display: flex;
+}
+.section f{
+    display: flex;
+} */
+
+
+/*RESPONSIVE*/
+
+@media (max-width: 1500px) {
+    .icon {
+        display: none;
+
+    }
+}
+
+@media (max-width: 300px ){
+
+    .hero {
+        flex-direction: column;
+
+        /* justify-content: space-between; */
+        /* background: bisque; */
+    }
+    .menu {
+        display: none;
+    }
+    .icon {
+        position: absolute !important;
+        display: block;
+        top: 2%;
+        right: 5%; 
+
+    }
+
+    .q{
+        display: none;
+    }
+    
+}

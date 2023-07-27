@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
-body{
+.body{
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     background: scroll;
 }
-nav{
+.nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -15,11 +15,11 @@ nav{
     height: 100%;
 
 }
-nav li a {
+.nav .li .a {
     color: white;
     text-decoration: none;
 }
-header{
+.header{
    /* position: fixed;*/
     width: 100%;
     height: 8vh;
@@ -136,9 +136,9 @@ ik{
 }
 .mi
 {
+    display: flex;
+    justify-content: space-between;
     padding-left: 100px;
-    background-color: rgb(246, 244, 240);
-    border-radius: 5%;
 }
 .li
 {
@@ -148,9 +148,55 @@ ik{
 }
 .v
 {
-    width: 250px;
-    height: 200px;
+    width: 350px;
+    height: 350px;
 }
+.so{
+    display: flex;
+    /* margin-top: 5px; */
+    padding-left: 20px;
+    
+}/*
+.fv{
+    display: flex;
+    margin-top: 5px;
+    padding-left: 15px;
+}
+.jt{
+    display: flex;
+    margin-top: 5px;
+    padding-left: 15px;
+}
+.ke{
+    display: flex;
+    margin-top: 5px;
+    padding-left: 15px;
+}
+.li{
+    display: flex;
+    margin-top: 5px;
+    padding-left: 15px;
+}
+.nu{
+    display: flex;
+    margin-top: 5px;
+    padding-left: 15px;
+}
+.po{
+    display: flex;
+    margin-top: 5px;
+    padding-left: 15px;
+}
+.ha{
+    display: flex;
+    margin-top: 5px;
+    padding-left: 15px;
+}
+.ws{
+    display: flex;
+    margin-top: 5px;
+    padding-left: 15px;
+}*/
 .bi
 {
     padding-right: 100px;
@@ -319,7 +365,9 @@ ik{
 }
 .section-h
 {
-    justify-content: space-between;
+    justify-content: space-around;
+    display: flex;
+    margin-top: 70px;
     
 }
 .section-p
@@ -332,6 +380,11 @@ ik{
 {
     display: flex;
     justify-content: space-around;
+}
+.r{
+    display: flex;
+    margin-top: 13px;
+    padding-left: 20px;
 }
 .lala
 {

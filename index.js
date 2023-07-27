@@ -6,3 +6,9 @@
                 <i class="fas fa-times fermer"></i>
             </div>
             <div class="leftside"></div>*/
+            let toogle = document.querySelector(".toogle");
+            let body = document.querySelector("body");
+
+            toogle.addEventListener("click", function(){
+                body.classList.toggle("open")
+            });

@@ -1,35 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
-.body{
+
+
+*{
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
-    background: scroll;
+    box-sizing: border-box;
+
 }
-.nav{
+html{
+    font-size: 16px;
+}
+  header{ 
+    position: absolute;
+    width: 100%;
+    height: 8vh;
+    top: 0;
+    left: 0;
+    background: rgb(187, 153, 153);
+    color: aliceblue;
+    padding: 0 2rem;
+} 
+nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     border-bottom: 5px solid #6f6f6f;
     width: 100%;
-    height: 100%;
+    height: 10vh;
 
 }
-.nav .li .a {
-    color: white;
+
+body{
+    /* margin: 0;
+    padding: 0; */
+
+    font-family: sans-serif;
+    /* background: scroll; */
+} 
+
+.toogle{
+    display: none;
+}
+.menu li a {
+    color: red;
     text-decoration: none;
 }
-.header{
-   /* position: fixed;*/
-    width: 100%;
-    height: 8vh;
-    top: 0;
-    left: 0;
-    background: black;
-    color: aliceblue;
-    padding: 0 2 rem;
 
-}
 .ridoss{
     height:  2rem;
 }
@@ -37,17 +54,19 @@
     font-size: 2rem;
 }
 .menu{
-    display: flex;
-    justify-content: space-around;
+  display  : flex;
+    justify-content: space-between;
     list-style: none;
     align-items: center;
     width: 550px;
-    
+     /* margin-left: 600px; */
+    /* margin-bottom: 50px; */
+     
 }
-.menu{
+/* .menu{
     color: #fff;
-    text-decoration: none;
-} 
+    text-decoration: none; 
+}*/
 .rido{
     height: 400px;
     width: 400px;
@@ -68,6 +87,11 @@
    padding: 10px; 
    margin-top: 70px;
 }
+.r{
+    display: flex;
+    margin-top: 12px;
+    padding-left: 20px;
+}
 .s 
 {
     border-radius: 75%;
@@ -80,7 +104,7 @@
     height: 40px;
     width: 50px;
 }
-ik{
+.ik{
     display: flex;
     justify-content: space-around;
 }
@@ -151,52 +175,6 @@ ik{
     width: 350px;
     height: 350px;
 }
-.so{
-    display: flex;
-    /* margin-top: 5px; */
-    padding-left: 20px;
-    
-}/*
-.fv{
-    display: flex;
-    margin-top: 5px;
-    padding-left: 15px;
-}
-.jt{
-    display: flex;
-    margin-top: 5px;
-    padding-left: 15px;
-}
-.ke{
-    display: flex;
-    margin-top: 5px;
-    padding-left: 15px;
-}
-.li{
-    display: flex;
-    margin-top: 5px;
-    padding-left: 15px;
-}
-.nu{
-    display: flex;
-    margin-top: 5px;
-    padding-left: 15px;
-}
-.po{
-    display: flex;
-    margin-top: 5px;
-    padding-left: 15px;
-}
-.ha{
-    display: flex;
-    margin-top: 5px;
-    padding-left: 15px;
-}
-.ws{
-    display: flex;
-    margin-top: 5px;
-    padding-left: 15px;
-}*/
 .bi
 {
     padding-right: 100px;
@@ -213,7 +191,8 @@ ik{
     display: flex;
     margin: 0px;
 
-}
+} 
+
 .container-6 .rightside
 {
     display: flex;
@@ -381,11 +360,7 @@ ik{
     display: flex;
     justify-content: space-around;
 }
-.r{
-    display: flex;
-    margin-top: 13px;
-    padding-left: 20px;
-}
+
 .lala
 {
     display: flex;
@@ -447,6 +422,7 @@ ik{
         display: none;
 
     }
+    
 }
 
 @media (max-width: 300px ){
@@ -469,7 +445,50 @@ ik{
     }
 
     .q{
-        display: none;
+        flex-direction: column;
+
     }
     
 }
+    	    @media  all and (max-width: 991px) {
+                .toogle{
+                    display: block;
+                    font-size: 2rem;
+                    cursor: pointer;
+                    z-index: 20;
+                }
+                .logo{
+                    position: relative;
+                    z-index: 20;
+                }
+                .ouvrir{
+                    display: block;
+                    
+                }
+                .fermer{
+                    display: none;
+                }
+                .open .ouvrir{
+                    display: none;
+                }
+                .open .fermer{
+                    display: block;
+                } 
+                .menu{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100vh;
+                    background: #000;
+                    flex-direction: column;
+                    padding: 2rem;
+                    justify-content: space-around;
+                    transform: translateX(-100%);
+
+                }
+                .open .menu{
+                    transform: translateX(0);
+                }
+                
+            }
